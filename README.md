@@ -23,7 +23,8 @@ Desafio técnico para evaluar el conocimiento de los aspirantes a unirse al equi
     Cuando el api de tomar ofertas falla se hace un retry del servicio 3 veces con un delay de 1 segundo entre cada intento.
     Ademas se guarda el error en una base de datos para hacer un analisis posterior. (se puede consultar en http://localhost:8080/reportes/solicitudes-fallidas)
 
-      
+### Servicio desplegado on-premise
+    Tambien dejare desplegado unos dias el servicio en mi servidor onpremise: https://bci.fneira.dev
 
 ### Levantar servicio
 #### Levantar servicio via docker-compose:
