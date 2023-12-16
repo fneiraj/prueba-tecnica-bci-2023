@@ -16,15 +16,16 @@ Desafio técnico para evaluar el conocimiento de los aspirantes a unirse al equi
     - Swagger
 
 ### Consideraciones
-    - Se utilizo Docker para la creación de contenedores y despliegue del servicio. (puede implementarse kubernetes para una escalabilidad horizontal)
-    - Se creo un api rest con mocks para consumir los datos de las ofertas y demas.
+- Se utilizo Docker para la creación de contenedores y despliegue del servicio. (puede implementarse kubernetes para una escalabilidad horizontal)
+- Se creo un api rest con mocks para consumir los datos de las ofertas y demas.
     
-    - Endpoint para tomar las ofertas tiene una logica que lo hace fallar de vez en cuando para probar el retry del servicio. 
+- Endpoint para tomar las ofertas tiene una logica que lo hace fallar de vez en cuando para probar el retry del servicio. 
     Cuando el api de tomar ofertas falla se hace un retry del servicio 3 veces con un delay de 1 segundo entre cada intento.
     Ademas se guarda el error en una base de datos para hacer un analisis posterior. (se puede consultar en http://localhost:8080/reportes/solicitudes-fallidas)
 
 ### Servicio desplegado on-premise
-    Tambien dejare desplegado unos dias el servicio en mi servidor onpremise: https://bci.fneira.dev
+Tambien dejare desplegado unos dias el servicio en mi servidor onpremise: [https://bci.fneira.dev](https://bci.fneira.dev/swagger-ui/index.html)
+    
 
 ### Levantar servicio
 #### Levantar servicio via docker-compose:
