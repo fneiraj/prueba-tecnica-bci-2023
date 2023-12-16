@@ -21,6 +21,7 @@ public class SwaggerConfig {
                 .description("Proyecto de prueba tecnica para BCI")
                 .title("Prueba Tecnica BCI - Fernando Neira")
                 .version("V1.0.0"))
+        .addServersItem(new Server().url("https://bci.fneira.dev").description("Homelab Server"))
         .addServersItem(new Server().url("http://localhost:8080").description("Local Server"));
   }
 }
