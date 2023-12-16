@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  apis-mock:
+    build:
+      context: ./apis-mock
+      dockerfile: ./Dockerfile
+    container_name: apis-mock
+    hostname: apis-mock
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+  backend:
+    build:
+      context: ./pruebabci
+      dockerfile: ./Dockerfile
+    container_name: backend
+    hostname: backend
+    environment:
+      - mock-server.url=http://apis-mock:3000
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
