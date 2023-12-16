@@ -1,0 +1,16 @@
+
+springdoc:
+  show-actuator: true
+
+token:
+  signing:
+    key: ${JWT_KEY:withoutSigningKeyForTokenJwtwithoutSigningKeyForTokenJwtwithoutSigningKeyForTokenJwt}
+
+mock-server:
+  url: http://localhost:3000
+
+resilience4j:
+  retry:
+    instances:
+      takeOffer:
+        max-attempts: 2

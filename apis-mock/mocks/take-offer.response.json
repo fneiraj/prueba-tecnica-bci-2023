@@ -1,0 +1,5 @@
+{
+  "status": "ok",
+  "message": "success",
+  "detail": "Oferta n° {offerId} tomada con exito, se realizan los cobros en su {paymean}"
+}

@@ -1,0 +1,11 @@
+{
+  "/sign-in": "mocks/sign-in.response.json",
+  "/sign-up": "mocks/sign-up.response.json",
+  "/get-user-by-email/fe.neiraj@gmail.com": "mocks/user-1001.response.json",
+  "/get-user-by-email/ariel.orta@bci.cl": "mocks/user-1002.response.json",
+  "/offers/fe.neiraj@gmail.com": "mocks/offers-1001.response.json",
+  "/offers/ariel.orta@bci.cl": "mocks/offers-1002.response.json",
+  "/paymeans/fe.neiraj@gmail.com": "mocks/paymeans-1001.response.json",
+  "/paymeans/ariel.orta@bci.cl": "mocks/paymeans-1002.response.json",
+  "/take-offer": "mocks/take-offer.response.json"
+}

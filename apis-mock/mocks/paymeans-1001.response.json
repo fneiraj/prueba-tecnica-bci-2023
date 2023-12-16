@@ -1,0 +1,11 @@
+{
+  "paymeans": [
+    {
+      "id": 1,
+      "name": "Cuenta Corriente BCI",
+      "type": "Cuenta Corriente",
+      "number": "123456789",
+      "balance": 1000000
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "paymeans": [
+    {
+      "id": 1,
+      "name": "Cuenta Corriente BCI",
+      "type": "Cuenta Corriente",
+      "number": "123456789",
+      "balance": 1000000
+    },
+    {
+      "id": 2,
+      "name": "Tarjeta de Crédito BCI",
+      "type": "Tarjeta de Crédito",
+      "number": "123456789",
+      "balance": 1000000
+    }
+  ]
+}
